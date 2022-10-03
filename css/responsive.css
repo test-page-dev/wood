@@ -18,3 +18,18 @@
     width: calc(100% - 20px);
   }
 }
+@media screen and (max-width: 768px) {
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__actions {
+    display: none;
+  }
+  .header .burger {
+    display: flex;
+  }
+}

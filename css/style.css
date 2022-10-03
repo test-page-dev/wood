@@ -781,8 +781,8 @@ i {
 
 /* Burger css */
 .burger {
+  display: none;
   cursor: pointer;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 22px;
@@ -820,7 +820,7 @@ i {
 }
 .burger__toggle span {
   position: relative;
-  background: #000;
+  background: #fff;
   border-radius: 2px;
   transition: 0.2s ease-in-out;
 }
@@ -881,6 +881,9 @@ i {
   z-index: 10;
 }
 .header__inner {
+  display: grid;
+  grid-template: 1fr/repeat(3, 1fr);
+  justify-items: center;
   align-items: center;
   gap: 30px;
   justify-content: space-between;
@@ -891,10 +894,14 @@ i {
   font-weight: 700;
   color: #fff;
 }
+.header__nav {
+  justify-self: flex-start;
+}
 .header__nav ul {
   gap: 20px;
 }
 .header__actions {
+  justify-self: flex-end;
   gap: 20px;
   align-items: center;
 }
