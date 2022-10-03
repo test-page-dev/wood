@@ -33,4 +33,7 @@
   .header .burger {
     display: flex;
   }
+  .intro__video {
+    display: none;
+  }
 }

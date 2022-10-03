@@ -3,7 +3,7 @@
 document.addEventListener(
 	"DOMContentLoaded",
 	function () {
-		// Video bg animation
+		// Video bg anim
 		setInterval(() => {
 			document.querySelector(".video-bg").classList.add("is-active");
 		}, 500);
@@ -46,7 +46,6 @@ document.addEventListener(
 				});
 			});
 		}
-
 		// Close all popups function
 		function CloseAll() {
 			document.addEventListener("click", function (e) {
