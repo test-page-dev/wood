@@ -12,10 +12,11 @@ document.addEventListener(
 		if (document.querySelector(".burger")) {
 			let burgerWrap = document.querySelector(".burger");
 			let burgerToggle = document.querySelector(".burger__toggle");
-			let menu = document.querySelector(".menu");
+			let menu = document.querySelector(".header__nav");
 
 			burgerWrap.onclick = function () {
 				burgerToggle.classList.toggle("is-active");
+				menu.classList.toggle("is-active");
 			};
 		}
 
